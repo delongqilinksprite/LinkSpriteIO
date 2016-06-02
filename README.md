@@ -22,7 +22,7 @@
 
 ##### 2.下载并运行代码
 * 下载源文件
-`git clone https://github.com/YaoQ/zigbee.git`
+`git clone https://github.com/delongqilinksprite/LinkSpriteIO.git`
 * 将下载的代码放到Arduino IDE目录下的libraries目录下
 * 打开Arduino IDE 
 * 打开 文件->示例->LinkSpriteIO->LinkSpriteIO
