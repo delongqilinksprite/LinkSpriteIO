@@ -13,10 +13,10 @@ void setup(){
 void loop(){
     String s;
     int v;
-	s = linksprite.updata("test","6");
+	s = linksprite.update("test","6");
 	Serial.println(s);
 	delay(3000);
-	v = linksprite.query_data("test");
+	v = linksprite.query("test");
     Serial.println("The get is :");
 	Serial.println(v);
 	delay(3000);

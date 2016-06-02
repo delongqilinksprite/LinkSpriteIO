@@ -37,7 +37,7 @@ int LinkSpriteIO::StrtoDec(String a)
        return 9;  
 }
 
-int LinkSpriteIO::query_data(String serach)
+int LinkSpriteIO::query(String serach)
 {
    int dat = 0;
    String s1;
@@ -90,7 +90,7 @@ int LinkSpriteIO::query_data(String serach)
  }
 }
 
-String LinkSpriteIO::updata(String type,String val)
+String LinkSpriteIO::update(String type,String val)
 {
    String param;
    String s = "\"";
