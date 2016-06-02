@@ -39,7 +39,7 @@
 ![](picture/8.png)
 * www.linksprite.io数据  
 ![](picture/7.png)  
-到这里我们可以看到我们可以把我们的数据上传到Linksprite.io云平台上了，也从云平台将数据拿来下来。
+到这里我们可以看到我们可以把我们的数据上传到Linksprite.io云平台上了，也从云平台将数据拿来下来。   
 #### 备注
 初次使用LinkNode D1开发板时wifi需要配置，LinkNode D1会发出一个名字为LinkNode AP的wifi，密码为12345678，用手机连接wifi，输入10.0.1.1配置wifi  
 ![](picture/6.png)
