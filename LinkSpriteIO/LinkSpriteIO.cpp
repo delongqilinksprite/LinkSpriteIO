@@ -99,7 +99,7 @@ int LinkSpriteIO::query(String serach)
     client.print("\n\n");
     client.print(postStr);  
   }
- delay(80);
+ delay(200);
  String request = "";
  while (client.available()) 
  {
@@ -116,7 +116,7 @@ int LinkSpriteIO::query(String serach)
    String val = request.substring(index3+l+3, index3+l+8); 
    client.stop();
    dat = val.toInt();   
-   delay(2);  
+   delay(20);  
    return dat;
  }
 }
@@ -156,7 +156,7 @@ query_val LinkSpriteIO::query(String s1,String s2)
     client.print("\n\n");
     client.print(postStr);  
   }
- delay(80);
+ delay(200);
  String request = "";
  while (client.available()) 
  {
@@ -177,7 +177,7 @@ query_val LinkSpriteIO::query(String s1,String s2)
    client.stop();
    query_dat.d1 = val_1.toInt();
    query_dat.d2 = val_2.toInt();
-   delay(2);  
+   delay(20);  
    return query_dat;
  }
 }
@@ -221,7 +221,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3)
     client.print("\n\n");
     client.print(postStr);  
   }
- delay(80);
+ delay(200);
  String request = "";
  while (client.available()) 
  {
@@ -246,7 +246,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3)
    query_dat.d1 = val_1.toInt();
    query_dat.d2 = val_2.toInt();
    query_dat.d3 = val_3.toInt();
-   delay(2);  
+   delay(20);  
    return query_dat;
  }
 }
@@ -294,7 +294,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3,String s4)
     client.print("\n\n");
     client.print(postStr);  
   }
- delay(80);
+ delay(200);
  String request = "";
  while (client.available()) 
  {
@@ -323,7 +323,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3,String s4)
    query_dat.d2 = val_2.toInt();
    query_dat.d3 = val_3.toInt();
    query_dat.d4 = val_4.toInt();
-   delay(2);  
+   delay(20);  
    return query_dat;
  }
 }
@@ -375,7 +375,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3,String s4,String s5)
     client.print("\n\n");
     client.print(postStr);  
   }
- delay(80);
+ delay(200);
  String request = "";
  while (client.available()) 
  {
@@ -408,7 +408,7 @@ query_val LinkSpriteIO::query(String s1,String s2,String s3,String s4,String s5)
    query_dat.d3 = val_3.toInt();
    query_dat.d4 = val_4.toInt();
    query_dat.d5 = val_5.toInt();
-   delay(2);  
+   delay(20);  
    return query_dat;
  }
 }
@@ -446,7 +446,7 @@ String LinkSpriteIO::update(String type,String val)
     client.print("\n\n");
     client.print(postStr1);
   }
-   delay(100);
+   delay(200);
    String request = "";
    while (client.available()) 
    {
